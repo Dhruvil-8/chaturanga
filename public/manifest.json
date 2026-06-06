@@ -1,0 +1,18 @@
+{
+  "short_name": "Chaturanga",
+  "name": "Chaturanga P2P Chess",
+  "description": "Peer-to-peer chess platform using Nostr relays with end-to-end encryption and zero server hosting costs.",
+  "icons": [
+    {
+      "src": "https://img.icons8.com/color/512/chess-crown.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": ".",
+  "background_color": "#120d09",
+  "theme_color": "#d4af37",
+  "display": "standalone",
+  "orientation": "portrait"
+}

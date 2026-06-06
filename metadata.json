@@ -1,0 +1,6 @@
+{
+  "name": "Chaturanga",
+  "description": "Peer-to-peer chess platform using WebRTC directly in your browser with zero server hosting costs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
