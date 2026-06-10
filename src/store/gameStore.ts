@@ -464,7 +464,7 @@ export const useGameStore = create<GameStore>((set, get) => {
         }
         case 'rematch_accept': {
           const msg = message as NetworkMessage & { type: 'rematch_accept' };
-          const newColor = msg.newHostColor === 'w' ? 'b' : 'w';
+          const newColor = msg.newHostColor;
           const newChess = new Chess();
           
           set({
