@@ -169,7 +169,7 @@ export default function ChessGame() {
     return success;
   };
 
-  const handleSquareClick = (square: string) => {
+  const handleSquareClick = ({ square }: { square: string }) => {
     if (turn !== myColor || gameOverReason || isDraw) return;
     
     // If clicking already selected square, deselect
